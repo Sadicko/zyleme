@@ -1,3 +1,13 @@
+*{
+	font-family: 'Cairo', sans-serif;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
 .navbar{
 	padding: 15px;
 }
@@ -44,7 +54,7 @@ input:placeholder-shown {
 header{
 	height: 80vh;
 	min-height:100%;
-	background: linear-gradient(0deg, rgba(12, 13, 57, 0.67), rgba(5, 2, 123, 0.68)), url('../images/header_bg.jpg');
+	background: linear-gradient(0deg, rgba(0, 44, 90, 0.77), rgba(0, 44, 90, 0.77)), url('../images/header_bg.jpg');
 	background-size:cover;
 }
 
@@ -94,23 +104,54 @@ section .section-info{
 	text-align: justify;
 }
 
+.about-section{
+	min-height:100%;
+	background: url('../images/about_bg.png');
+	background-size:cover;
+}
+
 .bg-blue{
-	background: #5353ffe0 !important;
+	background: #2F79DD !important;
 }
 
 .text-left{
 	text-align: left;
 }
 
-section .section-icon{
-	background: #9cd0fd;
-	color: #fff;
+section .section-icon img{
+	height: 100px;
+	width: 100px !important;
+}
+
+.choose-us .choose-us-text{
+	position: absolute;
+	top: 90px;
+}
+
+section .model-icon img{
 	height: 50px;
-	width: 50px;
+	width: 50px !important;
 }
 
 @media screen and (max-width: 769px){
 	section{
 		padding: 100px 10px;
 	}
+
+	.side-cart-img img{
+		width: 100%;
+	}
+
+	.choose-us .p-5{
+		padding: 5px !important;
+		/*text-align: center !important;*/
+		/*display: flex;*/
+	}
+	/*.choose-us .choose-us-text{
+		margin:  0 auto !important;
+	}
+
+	.choose-us img{
+		margin:  0 auto !important;
+	}*/
 }
