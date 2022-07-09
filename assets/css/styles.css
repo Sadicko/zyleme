@@ -118,6 +118,10 @@ section .section-info{
 	background: #E1473D !important;
 }
 
+.bg-light-gray{
+	background: #F1F1F1 !important;
+}
+
 .fw-900{
 	font-weight: 900;
 }
@@ -145,6 +149,20 @@ section.promise{
 	min-height:100%;
 	background: url('../images/promise_bg.png');
 	background-size:cover;
+	background-attachment: fixed;
+}
+
+
+.counters p{
+	color: #fff;
+}
+
+.counters .counter-text p:first-child{
+	font-size: 3rem;
+}
+
+.counters .col-md-3:not(:first-child){
+	border-left: 1px solid #ffffff7a;
 }
 
 @media screen and (max-width: 769px){
@@ -175,7 +193,7 @@ section.promise{
 
 	section.promise{
 		min-height:100%;
-		background: url('../images/promise_bg.png');
+		background: url('../images/promise_bg_sm.png');
 		background-size:cover;
 	}
 }
