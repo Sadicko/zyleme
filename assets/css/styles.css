@@ -258,6 +258,24 @@ section.promise{
 }
 
 
+.footer{
+	padding: 60px 0px 10px;
+	background-color: #002C5A;
+}
+.footer .footer-top-url li{
+	margin: 20px;
+}
+.footer .footer-top-url li a,
+.footer .footer-bottom-url li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .footer-bottom-url li,
+.footer .footer-bottom p{
+	margin: 20px;
+}
+
 @media screen and (max-width: 769px){
 	section{
 		padding: 100px 10px;
@@ -303,5 +321,15 @@ section.promise{
 	}
 	.testimonials-figure{
 		max-width: 324px;
+	}
+
+	.footer .footer-top-url{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+	}
+
+	.footer .footer-top-url li{
+		margin-bottom: 0px;
 	}
 }
