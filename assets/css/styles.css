@@ -114,6 +114,14 @@ section .section-info{
 	background: #2F79DD !important;
 }
 
+.bg-orange{
+	background: #E1473D !important;
+}
+
+.fw-900{
+	font-weight: 900;
+}
+
 .text-left{
 	text-align: left;
 }
@@ -131,6 +139,12 @@ section .section-icon img{
 section .model-icon img{
 	height: 50px;
 	width: 50px !important;
+}
+
+section.promise{
+	min-height:100%;
+	background: url('../images/promise_bg.png');
+	background-size:cover;
 }
 
 @media screen and (max-width: 769px){
@@ -154,4 +168,14 @@ section .model-icon img{
 	.choose-us img{
 		margin:  0 auto !important;
 	}*/
+
+	.promise .section-icon-text{
+		text-align: center;
+	}
+
+	section.promise{
+		min-height:100%;
+		background: url('../images/promise_bg.png');
+		background-size:cover;
+	}
 }
