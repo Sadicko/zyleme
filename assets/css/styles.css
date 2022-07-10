@@ -1,4 +1,4 @@
-*{
+`*{
 	font-family: 'Cairo', sans-serif;
 }
 
@@ -424,5 +424,124 @@ section.promise{
 
 	.tracking-info .track-box{
 		margin: 0 auto;
+	}
+}
+
+
+/*faqs*/
+
+.faqs-header{
+	min-height: 70%;
+	background: #F4F4F4;
+	padding: 50px 10px;
+}
+
+.faqs-header h1{
+	font-size: 1.9rem;
+	font-weight: 900;
+	color: #000;
+	line-height: 2;
+}
+
+.faqs-header p{
+	color: #000;
+	text-align: justify;
+}
+
+.faqs-header img{
+	width: 100%;
+	margin-left: auto;
+}
+
+
+.faqs-info .accordion-collapse {
+	border: 0;
+}
+
+.faqs-info .accordion-header {
+	padding: 20px;
+}
+
+.faqs-info .accordion-button {
+	padding: 0px;
+	font-weight: bold;
+	border: 0;
+	font-size: 18px;
+	color: #333333;
+	text-align: left;
+	/*border-bottom: 1px solid #ddd; */
+}
+.faqs-info .accordion-button:focus {
+	box-shadow: none;
+	border: none;
+}
+.faqs-info .accordion-button:not(.collapsed) {
+	background: none;
+	color: #bb2d3b;
+}
+.faqs-info .accordion-body {
+	padding: 15px;
+	background-color: #f6f6f6;
+}
+.faqs-info .accordion-button::after {
+	width: auto;
+	height: auto;
+	content: "\f067" !important;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	font-size: 10px;
+	background-image: none;
+	color: #000;
+	transform: translateY(-4px);
+}
+.faqs-info .accordion-button:not(.collapsed)::after {
+	width: auto;
+	height: auto;
+	background-image: none;
+	content: "\f068" !important;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	/*font-size: 38px;*/
+	transform: translate(-5px, -4px);
+	transform: rotate(0deg);
+}
+
+
+@media screen and (max-width: 769px){
+
+	.faqs-header .col-md-6{
+		margin-bottom: 35px !important;	
+		text-align: center;
+	}
+
+	.faqs-header{
+		min-height: 70%;
+	}
+
+	.faqs-header h1 {
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: #000;
+		line-height: 1;
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	.faqs-header a.btn{
+		float: none !important;
+	}
+
+	.faqs-header img{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.faqs-info .accordion-button {
+		padding: 0px;
+		font-weight: bold;
+		border: 0;
+		font-size: 12px;
+		color: #333333;
+		text-align: left;
 	}
 }
