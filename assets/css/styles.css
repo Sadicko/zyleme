@@ -126,6 +126,10 @@ section .section-info{
 	background: #F1F1F1 !important;
 }
 
+.bg-gray{
+	background: #C4C4C4 !important;
+}
+
 
 .fw-900{
 	font-weight: 900;
@@ -375,7 +379,7 @@ section.promise{
 }
 
 .tracking-info .track-line{
-	border: 2px solid;
+	border: 2px solid #c4c4c4;
 	position: absolute;
 	height: 31px;
 	left: 16px;
