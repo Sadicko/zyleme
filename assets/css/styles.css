@@ -363,11 +363,23 @@ section.promise{
 }
 
 
+.tracking-info .track-box{
+	position: relative;
+}
+
 .tracking-info .track-icon{
 	padding: 6px;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
+}
+
+.tracking-info .track-line{
+	border: 2px solid;
+	position: absolute;
+	height: 31px;
+	left: 16px;
+	top: -26px;
 }
 
 
@@ -395,6 +407,18 @@ section.promise{
 
 	.track-shipment-header img{
 		width: 100%;
+		margin: 0 auto;
+	}
+
+	.tracking-info .col-md-5{
+		padding-left: 94px;
+	}
+
+	.tracking-info h3{
+		text-align: center !important;
+	}
+
+	.tracking-info .track-box{
 		margin: 0 auto;
 	}
 }
