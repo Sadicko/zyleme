@@ -126,6 +126,7 @@ section .section-info{
 	background: #F1F1F1 !important;
 }
 
+
 .fw-900{
 	font-weight: 900;
 }
@@ -331,5 +332,69 @@ section.promise{
 
 	.footer .footer-top-url li{
 		margin-bottom: 0px;
+	}
+}
+
+
+/*track shipment*/
+
+.track-shipment-header{
+	/*height: 60vh;*/
+	min-height: 70%;
+	background: #F4F4F4;
+	padding: 50px 10px;
+}
+
+.track-shipment-header h1{
+	font-size: 2.9rem;
+	font-weight: 900;
+	color: #000;
+	line-height: 2;
+}
+
+.track-shipment-header p{
+	color: #000;
+	text-align: justify;
+}
+
+.track-shipment-header img{
+	width: 85%;
+	margin-left: auto;
+}
+
+
+.tracking-info .track-icon{
+	padding: 6px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+
+
+@media screen and (max-width: 769px){
+
+	.track-shipment-header .col-md-6{
+		margin-bottom: 35px !important;	
+	}
+
+	.track-shipment-header{
+		min-height: 70%;
+	}
+
+	.track-shipment-header h1 {
+		font-size: 2.9rem;
+		font-weight: 900;
+		color: #000;
+		line-height: 1;
+		margin-bottom: 45px;
+	}
+
+	.track-shipment-header button{
+		float: none !important;
+	}
+
+	.track-shipment-header img{
+		width: 100%;
+		margin: 0 auto;
 	}
 }
