@@ -130,6 +130,13 @@ section .section-info{
 	background: #C4C4C4 !important;
 }
 
+textarea{
+	resize: none;
+}
+
+.form-control{
+	border-radius: 15px;
+}
 
 .fw-900{
 	font-weight: 900;
@@ -544,4 +551,60 @@ section.promise{
 		color: #333333;
 		text-align: left;
 	}
+}
+
+
+
+/*contacts*/
+
+.contact{
+	min-height: 70%;
+	background: #fff;
+	padding: 50px 10px;
+}
+
+.contact h1{
+	font-size: 2.9rem;
+	font-weight: 900;
+	color: #000;
+	line-height: 2;
+}
+
+.contact p{
+	color: #000;
+	text-align: justify;
+}
+
+.contact span i{
+	background: #47D4E0;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
+.contact span p{
+	line-height: 0.5;
+	margin-left: 15px;
+}
+
+
+
+
+@media screen and (max-width: 769px){
+
+	.contact .col-md-6{
+		margin-bottom: 35px !important;	
+	}
+
+	.contact{
+		min-height: 70%;
+	}
+
+	.contact h1 {
+		font-size: 2.9rem;
+		font-weight: 900;
+		color: #000;
+		line-height: 1;
+		margin-bottom: 45px;
+	}
+
 }
