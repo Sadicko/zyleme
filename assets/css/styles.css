@@ -52,10 +52,11 @@ input:placeholder-shown {
 
 
 header{
-	height: 80vh;
-	min-height:100%;
+	height: 100vh;
+	/*min-height:100%;*/
 	background: linear-gradient(0deg, rgba(0, 44, 90, 0.77), rgba(0, 44, 90, 0.77)), url('../images/header_bg.jpg');
 	background-size:cover;
+	background-position: center center;
 }
 
 header h1{
@@ -67,6 +68,17 @@ header h1{
 
 header p{
 	color: #fff;
+}
+
+header .input-group .btn {
+	position: relative;
+	z-index: 4;
+}
+
+header .btn-outline-secondary:hover {
+  color: #352a2a;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 @media screen and (max-width: 769px){
@@ -162,7 +174,7 @@ section .model-icon img{
 }
 
 section.promise{
-	min-height:100%;
+	/*min-height:100%;*/
 	background: url('../images/promise_bg.png');
 	background-size:cover;
 	background-attachment: fixed;
